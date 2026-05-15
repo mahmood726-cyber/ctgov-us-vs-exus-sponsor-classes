@@ -1,0 +1,96 @@
+{
+  "title": "CT.gov U.S. Versus Ex-U.S. Sponsor Classes",
+  "slug": "ctgov-us-vs-exus-sponsor-classes",
+  "author": "Mahmood Ahmad",
+  "date": "2026-03-29",
+  "body": "How different do sponsor-class reporting gaps look once older CT.gov studies are collapsed into any-U.S., no-U.S., and no-country buckets instead of a longer geography table? We analysed 249,507 eligible older closed interventional studies from the March 29, 2026 full-registry snapshot and grouped them by U.S. presence using recorded country locations. The project compares two-year no-results rates, ghost-protocol rates, visible shares, and sponsor-class contrasts across any-U.S., no-U.S., and no-country portfolios. Any-U.S. studies showed a 52.1 percent no-results rate, versus 88.7 percent for no-U.S. studies and 80.9 percent for studies with no named country. Within no-U.S. studies, OTHER reached 94.9 percent no results and industry 70.9 percent, while any-U.S. industry fell to 45.5 percent and any-U.S. NIH to 52.3 percent. U.S. presence therefore behaves like a divider across sponsor classes, and the ex-U.S. backlog is much quieter than the any-U.S. registry surface. U.S.-presence buckets reflect recorded study locations rather than verified enrollment shares, sponsor domicile, or legal obligations.",
+  "word_count": 156,
+  "sentence_count": 7,
+  "sentences": [
+    {
+      "role": "Question",
+      "text": "How different do sponsor-class reporting gaps look once older CT.gov studies are collapsed into any-U.S., no-U.S., and no-country buckets instead of a longer geography table?"
+    },
+    {
+      "role": "Dataset",
+      "text": "We analysed 249,507 eligible older closed interventional studies from the March 29, 2026 full-registry snapshot and grouped them by U.S. presence using recorded country locations."
+    },
+    {
+      "role": "Method",
+      "text": "The project compares two-year no-results rates, ghost-protocol rates, visible shares, and sponsor-class contrasts across any-U.S., no-U.S., and no-country portfolios."
+    },
+    {
+      "role": "Primary result",
+      "text": "Any-U.S. studies showed a 52.1 percent no-results rate, versus 88.7 percent for no-U.S. studies and 80.9 percent for studies with no named country."
+    },
+    {
+      "role": "Secondary result",
+      "text": "Within no-U.S. studies, OTHER reached 94.9 percent no results and industry 70.9 percent, while any-U.S. industry fell to 45.5 percent and any-U.S. NIH to 52.3 percent."
+    },
+    {
+      "role": "Interpretation",
+      "text": "U.S. presence therefore behaves like a divider across sponsor classes, and the ex-U.S. backlog is much quieter than the any-U.S. registry surface."
+    },
+    {
+      "role": "Boundary",
+      "text": "U.S.-presence buckets reflect recorded study locations rather than verified enrollment shares, sponsor domicile, or legal obligations."
+    }
+  ],
+  "notes": {
+    "app": "CT.gov U.S. Versus Ex-U.S. Sponsor Classes dashboard",
+    "data": "249,507 eligible older closed interventional studies grouped into any-U.S., no-U.S., and no-country buckets",
+    "code": "https://github.com/mahmood726-cyber/ctgov-us-vs-exus-sponsor-classes",
+    "doi": "",
+    "version": "1.0.0",
+    "date": "2026-03-29",
+    "validation": "FULL REGISTRY RUN"
+  },
+  "type": "methods",
+  "primary_estimand": "2-year no-results rate across sponsor classes within any-U.S., no-U.S., and no-country older CT.gov portfolios",
+  "validation": {
+    "status": "fail",
+    "checks": [
+      {
+        "name": "single paragraph",
+        "ok": true,
+        "detail": "Body must not contain blank-line paragraph breaks."
+      },
+      {
+        "name": "sentence count",
+        "ok": true,
+        "detail": "Found 7 sentences."
+      },
+      {
+        "name": "word count",
+        "ok": true,
+        "detail": "Found 156 words."
+      },
+      {
+        "name": "no headings",
+        "ok": true,
+        "detail": "No markdown headings allowed in body."
+      },
+      {
+        "name": "no links",
+        "ok": true,
+        "detail": "No links or DOI links allowed in body."
+      },
+      {
+        "name": "result sentence has interval",
+        "ok": true,
+        "detail": "Sentence 4 should include a quantitative result such as a percentage, count, or interval."
+      },
+      {
+        "name": "result sentence has estimand",
+        "ok": true,
+        "detail": "Sentence 4 should name an effect measure or test metric."
+      },
+      {
+        "name": "boundary sentence present",
+        "ok": false,
+        "detail": "Sentence 7 should express a limitation, harm, or scope boundary."
+      }
+    ]
+  },
+  "schema": "e156-v0.2"
+}
