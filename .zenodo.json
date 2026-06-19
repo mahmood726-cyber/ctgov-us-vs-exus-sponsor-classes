@@ -1,0 +1,29 @@
+{
+  "title": "ClinicalTrials.gov registry-integrity analysis: ctgov-us-vs-exus-sponsor-classes",
+  "upload_type": "software",
+  "description": "Analysis code for the 'ctgov-us-vs-exus-sponsor-classes' component of the Synth\u0113sis Research Article 'Auditing the public clinical-trials record: a registry-integrity atlas of registration, reporting and completion gaps' (Andrew Woo, 2026). Source: ClinicalTrials.gov API v2 full-registry snapshot of 29 March 2026. Software/data author: Mahmood Ahmad (automated analysis pipeline); the paper author (A. Woo) differs from the software author. Released under the MIT licence.",
+  "creators": [
+    {
+      "name": "Ahmad, Mahmood",
+      "orcid": "0000-0001-9107-3704",
+      "affiliation": "Tahir Heart Institute"
+    }
+  ],
+  "license": "mit",
+  "access_right": "open",
+  "keywords": [
+    "ClinicalTrials.gov",
+    "trial registries",
+    "results reporting",
+    "reporting bias",
+    "research transparency",
+    "meta-research"
+  ],
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "https://synthesis-medicine.org/index.php/journal/article/view/registry-integrity-atlas",
+      "scheme": "url"
+    }
+  ]
+}
